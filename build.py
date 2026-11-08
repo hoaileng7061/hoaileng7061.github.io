@@ -133,6 +133,17 @@ def build(base_path: str = "") -> None:
     (output / ".nojekyll").touch()
     paragraphs = "\n".join(f'<p>{escape(paragraph)}</p>' for paragraph in profile["bio"])
     interests = "\n".join(f'<li>{escape(interest)}</li>' for interest in profile["interests"])
+    personal = profile.get("outside_physics", {})
+    personal_paragraphs = "\n".join(f'<p>{escape(paragraph)}</p>' for paragraph in personal.get("paragraphs", []))
+    personal_links = ' · '.join(
+        f'<a href="{escape(link["url"], quote=True)}">{escape(link["label"])}</a>'
+        for link in personal.get("links", [])
+    )
+    personal_section = (
+        '<section class="section-block" aria-labelledby="outside-physics"><h2 id="outside-physics">Outside physics</h2>'
+        + personal_paragraphs + (f'<p>{personal_links}</p>' if personal_links else '') + '</section>'
+        if personal_paragraphs else ''
+    )
     home = f'''<header class="page-header"><h1>About me</h1></header>
       <div class="intro">{paragraphs}</div>
       <section class="section-block" aria-labelledby="research-interests">
@@ -144,6 +155,7 @@ def build(base_path: str = "") -> None:
         <ol class="publication-list">{publication(papers[0], profile, base_path)}</ol>
         <p><a class="text-link" href="{base_path}/publications/">View all publications <span aria-hidden="true">→</span></a></p>
       </section>
+      {personal_section}
       <section class="section-block" aria-labelledby="contact">
         <h2 id="contact">Contact</h2>
         <p class="contact-note">You can reach me at <a href="mailto:{escape(profile['email'])}">{escape(profile['email'])}</a>.</p>

@@ -25,6 +25,15 @@
     "Density and current fluctuations in noisy quantum systems",
     "Large deviations and macroscopic fluctuation theory"
   ],
+  "outside_physics": {
+    "paragraphs": [
+      "I compete in table tennis for Nice Cavigal Tennis de Table (licence no. 7527003). I have also recently taken up road cycling."
+    ],
+    "links": [
+      {"label": "Nice Cavigal Tennis de Table", "url": "https://nicecavigaltt.com/"},
+      {"label": "Strava (Xu Tian-tian)", "url": "https://www.strava.com/athletes/185741442"}
+    ]
+  },
   "supervisors": [
     "Mathias Albert",
     "Tony Jin"
