@@ -75,6 +75,9 @@ def publication(paper: dict, profile: dict, root: str, heading: str = "h3") -> s
 
 def render(template: Template, profile: dict, content: str, page: str, root: str) -> str:
     values = {key: escape(str(value), quote=True) for key, value in profile.items() if isinstance(value, str)}
+    title = f'{profile["name"]} | {page}'
+    if page == "About":
+        title = profile.get("homepage_title", title)
     photo = profile.get("photo", "")
     portrait = (
         f'<img class="profile-photo" src="{root}/{escape(photo, quote=True)}" alt="{escape(profile.get("photo_alt", profile["name"]), quote=True)}" width="168" height="168" fetchpriority="high">'
@@ -82,7 +85,7 @@ def render(template: Template, profile: dict, content: str, page: str, root: str
     )
     return template.substitute(
         values,
-        title=escape(f'{profile["name"]} | {page}'),
+        title=escape(title),
         year=date.today().year,
         root=root,
         content=content,
