@@ -1,0 +1,26 @@
+[
+  {
+    "id": "albert2026current",
+    "title": "Universal classical and quantum fluctuations in the large deviations of current of noisy quantum systems: Quantum symmetric simple exclusion and inclusion processes",
+    "authors": ["Mathias Albert", "Denis Bernard", "Tony Jin", "Stefano Scopa", "Shiyi Wei"],
+    "journal": "Physical Review E",
+    "volume": "114",
+    "article": "034140",
+    "year": 2026,
+    "published": "2026-09-23",
+    "doi": "10.1103/dt4c-tz98",
+    "arxiv": "2601.16883"
+  },
+  {
+    "id": "bernard2025density",
+    "title": "Large deviations of density fluctuations in the boundary-driven quantum symmetric simple inclusion process",
+    "authors": ["Denis Bernard", "Tony Jin", "Stefano Scopa", "Shiyi Wei"],
+    "journal": "Physical Review E",
+    "volume": "112",
+    "article": "034106",
+    "year": 2025,
+    "published": "2025-09-02",
+    "doi": "10.1103/fs7f-z3k6",
+    "arxiv": "2503.18763"
+  }
+]

@@ -1,0 +1,99 @@
+{
+  "name": "Shiyi Wei",
+  "role": "PhD student in theoretical physics",
+  "institution": "Université Côte d’Azur",
+  "institution_url": "https://univ-cotedazur.eu/",
+  "institute": "Institut de Physique de Nice",
+  "institute_short": "INPHYNI",
+  "institute_url": "https://inphyni.univ-cotedazur.eu/",
+  "group": "Theoretical Physics",
+  "group_url": "https://sites.google.com/view/inphyni-theoretical-physics/",
+  "location": "Nice, France",
+  "email": "shiyi.wei@univ-cotedazur.fr",
+  "photo": "assets/shiyi.jpg",
+  "photo_alt": "Portrait of Shiyi Wei outdoors",
+  "description": "Shiyi Wei is a PhD student in theoretical physics at Université Côte d’Azur and INPHYNI, working on quantum diffusion, nonequilibrium transport and fluctuations.",
+  "bio": [
+    "I am a PhD student in theoretical physics at Université Côte d’Azur, based at the Institut de Physique de Nice (INPHYNI). I started my PhD in November 2024, supervised by Mathias Albert with Tony Jin as co-supervisor.",
+    "My research concerns quantum diffusion and nonequilibrium transport, with particular interest in fluctuations, disorder and macroscopic fluctuation theory. I study how density and current fluctuations in noisy quantum systems connect with classical stochastic processes.",
+    "Before my PhD, I studied physics at École Normale Supérieure in Paris, including the ICFP master's programme in the Quantum Physics track. I previously studied mathematics and physics at Sorbonne Université."
+  ],
+  "interests": [
+    "Nonequilibrium statistical physics and disordered systems",
+    "Quantum diffusion and mesoscopic transport",
+    "Density and current fluctuations in noisy quantum systems",
+    "Large deviations and macroscopic fluctuation theory"
+  ],
+  "supervisors": [
+    "Mathias Albert",
+    "Tony Jin"
+  ],
+  "education": [
+    {
+      "university": "Université Côte d’Azur",
+      "location": "Nice, France",
+      "degree": "Ph.D. in Theoretical Physics",
+      "dates": "Nov. 2024 – Oct. 2027 (expected)",
+      "advisors": ["Mathias Albert", "Tony Jin"],
+      "advisor_roles": ["Thesis director", "Co-supervisor"],
+      "details": ["Initial thesis project: Towards a typical theory of quantum diffusion."]
+    },
+    {
+      "university": "École Normale Supérieure",
+      "location": "Paris, France",
+      "degree": "Diplôme de l’ENS, Physics",
+      "dates": "2020 – 2024",
+      "advisors": [],
+      "details": [
+        "Master 1 and Master 2 ICFP, Quantum Physics track."
+      ]
+    },
+    {
+      "university": "Sorbonne Université",
+      "location": "Paris, France",
+      "degree": "Licence 1 and 2, Mathematics and Physics (double major)",
+      "dates": "2018 – 2020",
+      "advisors": [],
+      "details": []
+    }
+  ],
+  "research_experience": [
+    {
+      "role": "Doctoral researcher",
+      "institution": "Institut de Physique de Nice (INPHYNI)",
+      "location": "Nice, France",
+      "dates": "Nov. 2024 – present",
+      "advisors": ["Mathias Albert", "Tony Jin"],
+      "description": "Theoretical study and analytical and numerical modelling of fluctuations in nonequilibrium disordered systems."
+    },
+    {
+      "role": "Master 2 research intern",
+      "institution": "Institut de Physique de Nice (INPHYNI)",
+      "location": "Nice, France",
+      "dates": "Apr. – Jun. 2024",
+      "advisors": ["Mathias Albert", "Tony Jin"],
+      "description": "Analytical calculation of nonequilibrium current cumulants in the quantum symmetric simple exclusion process (QSSEP), using the Lindblad formalism and quantum Itô calculus."
+    },
+    {
+      "role": "Master 1 research intern",
+      "institution": "LPMMC (CNRS)",
+      "location": "Grenoble, France",
+      "dates": "Feb. – Jul. 2022",
+      "advisors": ["Anna Minguzzi"],
+      "description": "Modelled a Tonks–Girardeau gas and numerically simulated its density matrix in Mathematica."
+    },
+    {
+      "role": "Undergraduate research intern",
+      "institution": "Laboratoire Kastler Brossel (LKB)",
+      "location": "Paris, France",
+      "dates": "Jun. – Jul. 2019",
+      "advisors": ["Alice Sinatra"],
+      "description": "Studied quantum-state reconstruction using Wigner distributions, coherent states and quantum squeezing."
+    }
+  ],
+  "languages": [
+    {"language": "French", "level": "Fluent"},
+    {"language": "English", "level": "Fluent"},
+    {"language": "Chinese", "level": "Native"}
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Shiyi Wei",
+  "cv_name": "WEI Shiyi",
+  "role": "Doctorante en physique théorique",
+  "email": "shiyi.wei@univ-cotedazur.fr",
+  "interests": [
+    "Physique statistique hors équilibre et systèmes désordonnés",
+    "Diffusion quantique et transport mésoscopique",
+    "Fluctuations de densité et de courant dans les systèmes quantiques bruités",
+    "Grandes déviations et théorie des fluctuations macroscopiques"
+  ],
+  "education": [
+    {
+      "university": "Université Côte d’Azur",
+      "location": "Nice, France",
+      "degree": "Doctorat en physique théorique",
+      "dates": "Nov. 2024 – oct. 2027 (prévu)",
+      "advisors": ["Mathias Albert", "Tony Jin"],
+      "advisor_roles": ["Directeur de thèse", "Co-encadrant"],
+      "details": ["Projet de thèse initial : Towards a typical theory of quantum diffusion."]
+    },
+    {
+      "university": "École Normale Supérieure",
+      "location": "Paris, France",
+      "degree": "Diplôme de l’ENS, physique",
+      "dates": "2020 – 2024",
+      "advisors": [],
+      "details": [
+        "Master 1 et Master 2 ICFP, parcours Physique quantique."
+      ]
+    },
+    {
+      "university": "Sorbonne Université",
+      "location": "Paris, France",
+      "degree": "Licence 1 et 2, double majeure Mathématiques et Physique",
+      "dates": "2018 – 2020",
+      "advisors": [],
+      "details": []
+    }
+  ],
+  "research_experience": [
+    {
+      "role": "Doctorante en physique théorique",
+      "institution": "Institut de Physique de Nice (INPHYNI)",
+      "location": "Nice, France",
+      "dates": "Nov. 2024 – présent",
+      "advisors": ["Mathias Albert", "Tony Jin"],
+      "description": "Étude théorique et modélisation analytique et numérique des fluctuations dans les systèmes désordonnés hors équilibre."
+    },
+    {
+      "role": "Stagiaire de Master 2",
+      "institution": "Institut de Physique de Nice (INPHYNI)",
+      "location": "Nice, France",
+      "dates": "Avr. – juin 2024",
+      "advisors": ["Mathias Albert", "Tony Jin"],
+      "description": "Calcul analytique des cumulants de courant hors équilibre dans le processus quantique d’exclusion simple symétrique (QSSEP), à l’aide du formalisme de Lindblad et du calcul d’Itô quantique."
+    },
+    {
+      "role": "Stagiaire de Master 1",
+      "institution": "LPMMC (CNRS)",
+      "location": "Grenoble, France",
+      "dates": "Fév. – juil. 2022",
+      "advisors": ["Anna Minguzzi"],
+      "description": "Modélisation d’un gaz de Tonks–Girardeau et simulation numérique de sa matrice densité avec Mathematica."
+    },
+    {
+      "role": "Stagiaire de Licence 1",
+      "institution": "Laboratoire Kastler Brossel (LKB)",
+      "location": "Paris, France",
+      "dates": "Juin – juil. 2019",
+      "advisors": ["Alice Sinatra"],
+      "description": "Étude de la reconstruction d’états quantiques à l’aide des distributions de Wigner, des états cohérents et du squeezing quantique."
+    }
+  ],
+  "languages": [
+    {"language": "Français", "level": "Courant"},
+    {"language": "Anglais", "level": "Courant"},
+    {"language": "Chinois", "level": "Langue maternelle"}
+  ]
+}
